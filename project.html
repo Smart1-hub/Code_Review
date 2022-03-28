@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Microverse Partnership: Ademola-Agasha</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div>
+                <header>
+                    <h1 id="title" class="text-center">Ademola-Agasha Microverse
+                        Project</h1>
+                    <p id="description" class="text-center">we are software
+                        developers</p>
+                </header>
+            </div>
+            <div>
+                <form id="survey-form" class="form">
+                    <div class="form-group">
+                        <label id="name-label" for="name">Name</label>
+                        <input
+                            type="text"
+                            name="name"
+                            id="name"
+                            class="input-field"
+                            placeholder="enter name"
+                            required/>
+                    </div>
+                    <div class="form-group">
+                        <label id="email-label" for="email">Email</label>
+                        <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            class="input-field"
+                            placeholder="type email"
+                            required/>
+                    </div>
+                    <div class="form-group">
+                        <label id="number-label" for="age">Age</label>
+                        <input
+                            type="number"
+                            min="18"
+                            max="100"
+                            name="age"
+                            id="number"
+                            class="input-field"
+                            placeholder="enter age"
+                            required/>
+                    </div>
+                    <div class="form-group">
+                        <p>Your years of experience</p>
+                        <select id="dropdown" name="experience" class="select"
+                            required>
+                            <option disabled selected value></option>
+                            <option value="lessthan-five">Less than 5</option>
+                            <option value="five-ten">5-10</option>
+                            <option value="tenabove">10 above</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <p>What is your gender?</p>
+                        <label id="male" for="gender">Male</label>
+                        <input name="gender" value="male" type="radio"
+                            class="gender" checked/>
+                        <label id="female" for="gender">Female</label>
+                        <input name="gender" value="female" type="radio"
+                            class="gender" checked/>
+                    </div>
+                    <div class="form-group">
+                        <p>What type of employment do you seek?</p>
+                        <label id="employment" for="employment">Full-time</label>
+                        <input name="employment" value="fulltime"
+                            type="checkbox"
+                            class="status" checked/>
+                        <label id="employment" for="employment">Part-time</label>
+                        <input name="employment" value="parttime"
+                            type="checkbox"
+                            class="status" checked/>
+                    </div>
+                    <div class="form-group">
+                        <p>What suggestions do you have for us?</p>
+                        <textarea id="message" class="input-textarea"
+                            name="message" rows=10;
+                            placeholder="type your message here"></textarea>
+                    </div>
+                    <div class="action-button">
+                        <button id="submit" class="submit-button">submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <script
+            src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>

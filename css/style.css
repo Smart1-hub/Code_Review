@@ -1,0 +1,40 @@
+body{
+    background-image: url('../images/transform.jpg');
+    background-repeat: none;
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    width:50%;
+    margin:0 auto;
+    background-color:#a4d9db;
+    padding: 15px;
+}
+.text-center{
+    text-align:center;
+}
+.form-group{
+    margin:5px;
+    width:80%;
+    display:flex;
+    flex-direction:column;
+}
+.input-field, .select, .input-textarea{
+    padding: 10px;
+    border:none;
+    outline:none;
+}
+.action-button{
+width:100%;
+margin:20px auto;
+}
+.submit-button{
+    display:block;
+    background-color: #0b76f0;
+    padding:8px;
+    width:100%;
+    border: none;
+    outline:none;
+    color:white;
+}
