@@ -2,6 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Microverse Partnership: Ademola-Agasha</title>
         <link rel="stylesheet" href="css/style.css">
     </head>
@@ -39,7 +41,7 @@
                             required/>
                     </div>
                     <div class="form-group">
-                        <label id="number-label" for="age">Age</label>
+                        <label id="number-label" for="number">Age</label>
                         <input
                             type="number"
                             min="18"
@@ -54,7 +56,7 @@
                         <p>Your years of experience</p>
                         <select id="dropdown" name="experience" class="select"
                             required>
-                            <option disabled selected value></option>
+                            <option disabled selected value>none</option>
                             <option value="lessthan-five">Less than 5</option>
                             <option value="five-ten">5-10</option>
                             <option value="tenabove">10 above</option>
@@ -71,11 +73,11 @@
                     </div>
                     <div class="form-group">
                         <p>What type of employment do you seek?</p>
-                        <label id="employment" for="employment">Full-time</label>
+                        <label id="job status" for="employment">Full-time</label>
                         <input name="employment" value="fulltime"
                             type="checkbox"
                             class="status" checked/>
-                        <label id="employment" for="employment">Part-time</label>
+                        <label id="job status" for="employment">Part-time</label>
                         <input name="employment" value="parttime"
                             type="checkbox"
                             class="status" checked/>
@@ -83,11 +85,11 @@
                     <div class="form-group">
                         <p>What suggestions do you have for us?</p>
                         <textarea id="message" class="input-textarea"
-                            name="message" rows=10;
+                            name="message" rows=10
                             placeholder="type your message here"></textarea>
                     </div>
                     <div class="action-button">
-                        <button id="submit" class="submit-button">submit</button>
+                        <button id="submit" type="button" class="submit-button">submit</button>
                     </div>
                 </form>
             </div>
